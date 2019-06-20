@@ -1,0 +1,32 @@
+{
+  "name": "delete-github-reps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaocongWang/delete-github-reps.git"
+  },
+  "keywords": [],
+  "author": "wangxiaocong <wang86976110@126.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaocongWang/delete-github-reps/issues"
+  },
+  "homepage": "https://github.com/xiaocongWang/delete-github-reps#readme",
+  "dependencies": {
+    "agentkeepalive": "^4.0.2",
+    "cheerio": "^1.0.0-rc.3",
+    "follow-redirects": "^1.7.0",
+    "ms": "^2.1.2",
+    "qs": "^6.7.0",
+    "url": "^0.11.0"
+  }
+}
