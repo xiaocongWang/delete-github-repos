@@ -2,6 +2,6 @@ const { deleteGithubReps } = require('../index');
 
 deleteGithubReps({
     username: 'xiaocongwang',
-    password: 'xxxxx',
-    reps: ['lodash', 'atom']
+    password: 'xxxxxxx',
+    reps: ['222']
 })
