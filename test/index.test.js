@@ -1,7 +1,9 @@
-const { deleteGithubReps } = require('../index');
+const GithubTool = require('../lib/githubTool');
 
-deleteGithubReps({
-    username: 'xiaocongwang',
-    password: 'xxxxxxx',
-    reps: ['222']
-})
+const githubTool = new GithubTool({ username: 'xiaocongwang', password: 'xxxxxxx' });
+
+githubTool.deleteRepos(['111', '222']);
+
+githubTool.getOwnerRepos();
+
+githubTool.checkUser();

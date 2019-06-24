@@ -1,8 +1,10 @@
 {
   "name": "delete-github-reps",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "delete-github-repos": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -25,7 +27,9 @@
     "agentkeepalive": "^4.0.2",
     "cheerio": "^1.0.0-rc.3",
     "colors": "^1.3.3",
+    "commander": "^2.20.0",
     "follow-redirects": "^1.7.0",
+    "inquirer": "^6.4.1",
     "ms": "^2.1.2",
     "qs": "^6.7.0",
     "url": "^0.11.0"
