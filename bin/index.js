@@ -90,7 +90,6 @@ if (!repos) {
         } else {
             const choices = repos.map(item => ({ name: item }))
             checkboxReposPrompt(choices, (answers) => {
-                console.log(answers);
                 if (answers.length > 0) {
                     deleteReposPrompt(answers, (isDelete) => {
                         deleteRepos(isDelete, answers);
