@@ -8,13 +8,13 @@ npm i delete-github-repos
 ```
 ### 如何使用
 
-此命令包含两种使用方式。
+工具包含两种使用方式。
 
 一、指定需要删除的仓库
 ```bash
 delete-github-repos -u 'username:password' -r 'repo1, repo2, ...'
 ```
-二、用户可以选择需要删除的库
+二、用户选择需要删除的仓库
 ```bash
 delete-github-repos -u 'username:password'
 ```
