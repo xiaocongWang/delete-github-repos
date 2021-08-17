@@ -16,9 +16,9 @@ npm i delete-github-repos -g
 
 一、删除指定的仓库
 ```bash
-delete-github-repos -u 'username:password' -r 'repo1, repo2, ...'
+delete-github-repos -r 'repo1, repo2, ...'
 ```
 二、选择需要删除的仓库进行删除
 ```bash
-delete-github-repos -u 'username:password'
+delete-github-repos
 ```
