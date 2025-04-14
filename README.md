@@ -22,3 +22,4 @@ delete-github-repos -r 'repo1, repo2, ...'
 ```bash
 delete-github-repos
 ```
+删除仓库时，默认只删除私有仓库，如需删除公开仓库，请使用 `-p` 参数
